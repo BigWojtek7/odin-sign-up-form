@@ -7,6 +7,7 @@
   font-family: my-font-face;
   src: url(font/Norse-Bold.otf);
 }
+
 body {
   display: flex;
   font-family: Arial;
@@ -20,7 +21,6 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   background-position: right;
-  /* position: relative; */
 }
 
 .text-logo {
@@ -44,19 +44,12 @@ body {
   top: 150px
 }
 
-img {
- /* width: 50px;
- height: auto; */
-}
-
-
 
 .right-box {
 
   display: flex;
   flex-direction: column;
   margin: 100px 0;
-  /* padding: 0 330px 0 50px; */
   flex: 1;
   
 
@@ -68,6 +61,7 @@ img {
   margin: 20px 0;
   width: 640px;
 }
+
 .title-span {
   display: block;
   margin: 30px 0;
@@ -81,16 +75,37 @@ img {
   margin: 10px 0;
   
 }
-.form{
+.form {
   display: flex;
-  width: 450px;
+  width: 550px;
 
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #ffffff;
-  /* padding: 0 300px 0 50px; */
   
 }
+
+.form-row input {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  width: 250px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row input[type="password"]:invalid {
+  border: red 1px solid;
+}
+
+.form-row input:focus {
+  box-shadow: 4px 4px 5px #bebebe;
+}
+
+
+
+
+
 
 label{
   font-size: 0.7rem;
@@ -124,4 +139,9 @@ p {
 .main {
   background-color: #ffffff;
   padding: 20px 50px;
+  box-shadow: 0 4px 5px -2px rgb(180, 180, 180);
+}
+
+.log-in {
+  color: #596D48;;
 }
