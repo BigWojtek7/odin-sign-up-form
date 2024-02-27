@@ -148,6 +148,8 @@ p {
 .form-paragraph {
   padding: 0;
   margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .main {
