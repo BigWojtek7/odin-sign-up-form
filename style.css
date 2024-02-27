@@ -11,7 +11,7 @@
 body {
   display: flex;
   font-family: Arial;
-  background-color: #c9c9c9;
+  background-color: #f7f7f7;
 }
 
 .left-box{
@@ -21,6 +21,7 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   background-position: right;
+  text-align: center;
 }
 
 .text-logo {
@@ -31,6 +32,8 @@ body {
   justify-content: center;
   align-items:end;
 }
+
+
 
 .logo-box{
   background: rgba(0, 0, 0, 0.5);
@@ -44,6 +47,19 @@ body {
   top: 150px
 }
 
+.text-footer{
+  color: #ffffff;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 10px;
+  width: inherit;
+  opacity: 0.7;
+}
+
+a:visited,
+a:link{
+  color: #ffffff;
+}
 
 .right-box {
 
@@ -60,6 +76,9 @@ body {
   font-size: 1.2rem;
   margin: 20px 0;
   width: 640px;
+}
+.italic{
+  font-style: italic;
 }
 
 .title-span {
